@@ -5,17 +5,17 @@
 Este es un Centos7 con Docker , el cual incluye supervisor , el servidor web HTTPD y un servidor  FTP , en este caso al ser sistema Centos seria un vsftpd
 
  ##Credenciales de sesión
-Usuario: www
-Contraseña:iaw
+> Usuario: www
+> Contraseña:iaw
 
 Puede cambiarlos utilizando las variables de entorno USUARIO y CONTRASEÑA. Ejemplo:
 
 ### docker run -d -p 80:80 -p 9001: 9001 -e USUARIO = mi nombre de usuario -e CONTRASEÑA = mi contraseña mgreyes/supervisor-httpd-extra
 
-## Credenciales de supervisor en interfaz web :
+##  Credenciales de supervisor en interfaz web :
 
-nombre de usuario : www
-contraseña : iaw
+> nombre de usuario : www
+> contraseña : iaw
 
 # Incluido en este  repositorio 
 
