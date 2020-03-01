@@ -10,7 +10,7 @@ Contraseña:iaw
 
 Puede cambiarlos utilizando las variables de entorno USUARIO y CONTRASEÑA. Ejemplo:
 
-###docker run -d -p 2222: 22 -p 9001: 9001 -e USUARIO = mi nombre de usuario -e CONTRASEÑA = mi contraseña mgreyes/supervisor-httpd-extra
+###docker run -d -p 80:80 -p 9001: 9001 -e USUARIO = mi nombre de usuario -e CONTRASEÑA = mi contraseña mgreyes/supervisor-httpd-extra
 
 ## Credenciales de supervisor en interfaz web :
 
@@ -33,4 +33,9 @@ El cual es un boot , para iniciar el supervisor , el cual arranca en primer plan
 
 Se debe utilizar el siguiente comando 
 ```
+docker build -t mgreyes/supervisor-httpd-extra .
+``` 
 
+# Autor
+**Autor:** Maykin Reyes
+**Email:** mgreyes@ilg.cat
